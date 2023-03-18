@@ -56,9 +56,7 @@ def main():
         data = list(map(int, input().split()))
 
     # Check that data is assigned before use
-    if 'data' not in locals():
-        print("Kluda: data not assigned")
-        return
+    
 
     # checks if length of data is the same as the said length
     assert len(data) == n
